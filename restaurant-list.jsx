@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-export const RestaurantList = () => {
+export const RestaurantList = ({ resta_name, cuisine, rating }) => {
   return (
     <div className="card m-2">
       <div className="card-body">
@@ -12,9 +12,9 @@ export const RestaurantList = () => {
           alt="restaurant"
           className="card-image"
         />
-        <h2 className="card-title">Restaurant Name</h2>
-        <p className="card-cuisine">Cuisine Type</p>
-        <p className="card-rating">Rating: 4.5</p>
+        <h2 className="card-title">{resta_name}</h2>
+        <p className="card-cuisine">{cuisine}</p>
+        <p className="card-rating">Rating: {rating}</p>
       </div>
     </div>
   );
