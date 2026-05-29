@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 2px -4px gray;
+
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .nav-items {
+    align-items: center;
+    vertical-align: middle;
+
+    ul {
+      gap: 20px;
+
+      li {
+        list-style: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.card {
+  align-items: center;
+  width: 300px;
+  height: 450px;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+
