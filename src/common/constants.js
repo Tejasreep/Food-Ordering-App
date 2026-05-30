@@ -1,0 +1,2 @@
+export const IMG_CDN_URL = "https://static.vecteezy.com/system/resources/previews/018/731/268/original/modern-food-company-logo-design-template-home-made-food-logo-template-typographic-food-logo-design-creative-food-word-logo-design-cooking-typographic-design-vector.jpg";
+export const FETCH_MENU_URL = "https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg";

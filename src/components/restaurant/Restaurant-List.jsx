@@ -1,12 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import {FETCH_MENU_URL} from "../../common/constants";
 
-export const RestaurantList = ({ resta_name, cuisine, rating }) => {
+const RestaurantList = ({ resta_name, cuisine, rating }) => {
   return (
     <div className="card m-2">
       <div className="card-body">
         <img
-          src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg"
+          src={FETCH_MENU_URL}
           height="250"
           width="250"
           alt="restaurant"
@@ -19,3 +18,5 @@ export const RestaurantList = ({ resta_name, cuisine, rating }) => {
     </div>
   );
 };
+
+export default RestaurantList;
